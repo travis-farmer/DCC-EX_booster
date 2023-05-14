@@ -13,6 +13,8 @@ void loop() {
       digitalWrite(4,LOW);
     } else if (digitalRead(5) == HIGH && digitalRead(4) == LOW) {
       digitalWrite(6,HIGH);
+    } else if (digitalRead(5) == LOW) {
+      digitalWrite(6,LOW);
     }
   }
 }
